@@ -24,7 +24,7 @@ from=22.07.2019&dt=22&mt=6&yt=2019&to=22.07.2019&p=7&\
 f=GAZP_190722_190722&e=.csv&cn=GAZP&dtf=1&tmf=1&MSOR=1&\
 mstime=on&mstimever=1&sep=3&sep2=1&datf=1&at=1'
 
-'http://export.finam.ru/SBER_190723_190723.txt?market=1&em=3&code=SBER&apply=0&df=23&mf=6&yf=2019&from=23.07.2019&dt=23&mt=6&yt=2019&to=23.07.2019&p=7&f=SBER_190723_190723&e=.txt&cn=SBER&dtf=1&tmf=1&MSOR=1&mstime=on&mstimever=1&sep=1&sep2=1&datf=1&at=1'
+'http://export.finam.ru/SBER_190723_190723.txt?market=1&em=3&code=SBER&\ apply=0 &df=23&mf=6&yf=2019&from=23.07.2019&dt=23&mt=6&yt=2019&to=23.07.2019&p=7&f=SBER_190723_190723&e=.txt&cn=SBER&dtf=1&tmf=1&MSOR=1&mstime=on&mstimever=1&sep=1&sep2=1&datf=1&at=1'
 
 urllib.request.urlretrieve(file_link, '/Users/Belyakov.VA/Desktop/UKL19/DATA\
 /test_file.csv')
