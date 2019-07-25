@@ -17,7 +17,7 @@ data resource https://www.finam.ru/profile/moex-akcii/company_name/export
 import urllib.request
 # import shutil
 
-js_link_for_em = 'https://www.finam.ru/cache/icharts/icharts.js' 
+js_link_for_em = 'https://www.finam.ru/cache/icharts/icharts.js'
 
 """
 file_link = 'http://export.finam.ru/\
@@ -43,4 +43,3 @@ f.close()
 #
 # print(file_link)
 # shutil.move(src, dst, copy_function=copy2)
-
